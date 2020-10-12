@@ -199,12 +199,12 @@ JWT_AUTH = {
 }
 
 # email config
-EMAIL_HOST = env_config('EMAIL_HOST')
-EMAIL_BACKEND = env_config('EMAIL_BACKEND')
-EMAIL_PORT = env_config('EMAIL_PORT')
-EMAIL_HOST_USER = env_config('EMAIL_HOST_USER')
-EMAIL_HOST_PASSWORD = env_config('EMAIL_HOST_PASSWORD')
-EMAIL_USE_TLS = env_config('EMAIL_USE_TLS', cast=bool)
+# EMAIL_HOST = env_config('EMAIL_HOST')
+# EMAIL_BACKEND = env_config('EMAIL_BACKEND')
+# EMAIL_PORT = env_config('EMAIL_PORT')
+# EMAIL_HOST_USER = env_config('EMAIL_HOST_USER')
+# EMAIL_HOST_PASSWORD = env_config('EMAIL_HOST_PASSWORD')
+# EMAIL_USE_TLS = env_config('EMAIL_USE_TLS', cast=bool)
 
 FORMAT_DATE = '%Y/%m/%d'
 FORMAT_DATETIME = '%Y/%m/%d %X'
