@@ -1,0 +1,13 @@
+**/__pycache__/
+*.py[cod]
+*$py.class
+db.sqlite3
+# IDE
+**/.idea
+**/media
+**/venv/
+media/
+static/
+**/debug.log
+**/celerybeat-schedule
+**/celerybeat.pid
