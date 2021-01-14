@@ -61,6 +61,7 @@ MIDDLEWARE = [
     'silk.middleware.SilkyMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
+    'apps.common.middleware.CurrentUserMiddleware',
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True
